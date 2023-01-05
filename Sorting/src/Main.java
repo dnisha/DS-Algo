@@ -1,5 +1,6 @@
 import main.java.deepak.algos.BubbleSort;
 import main.java.deepak.algos.InsertionSort;
+import main.java.deepak.algos.Merge;
 import main.java.deepak.algos.SelectionSort;
 
 import java.util.Arrays;
@@ -19,6 +20,9 @@ public class Main {
 
         if (Arrays.equals(InsertionSort.sort(arr), SortedArray))
             System.out.println("Array after Insertion Sort " + Arrays.toString(InsertionSort.sort(arr)));
+
+        if (Arrays.equals(InsertionSort.sort(arr), SortedArray))
+            System.out.println("Array after Merge Sort " + Arrays.toString(Merge.mergeSort(arr, 0, 5)));
 
 
     }
